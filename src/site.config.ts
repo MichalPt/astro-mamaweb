@@ -29,13 +29,25 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Home",
 	},
 	{
-		path: "/about/",
-		title: "About",
+		path: "/mancal/",
+		title: "Tomáš Mančal",
 	},
 	{
-		path: "/posts/",
-		title: "Blog",
+		path: "/maly/",
+		title: "Pavel Malý",
 	},
+	{
+		path: "/group/",
+		title: "Group",
+	},
+	{
+		path: "/about/",
+		title: "About Us",
+	},
+	// {
+	// 	path: "/posts/",
+	// 	title: "Blog",
+	// },
 	{
 		path: "/notes/",
 		title: "Notes",

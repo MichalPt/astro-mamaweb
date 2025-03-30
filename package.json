@@ -1,5 +1,5 @@
 {
-  "name": "astro-citrus",
+  "name": "astro-citrus-mamaweb",
   "version": "1.0.0",
   "private": false,
   "scripts": {
@@ -60,6 +60,15 @@
     "typescript": "^5.7.2"
   },
   "pnpm": {
-		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild", "sharp"]
-	}
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "esbuild",
+      "sharp"
+    ]
+  },
+  "description": "MaMa Group web made from Astro-citrus template",
+  "main": "index.js",
+  "repository": "https://github.com/MichalPt/astro-mamaweb.git",
+  "author": "Michal Ptacek",
+  "license": "MIT"
 }
